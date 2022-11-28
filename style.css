@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #2B3A55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: rgb(172, 133, 82);
+    border-radius: 15px;
+    box-shadow: 5px;
+    width: 400px;
+    max-width: 800px;
+}
+.header {
+    background-color: blueviolet;
+    border-bottom: 1px solid grey;
+    padding: 20px 40px;
+}
+.form {
+    padding: 30px 40px;
+}
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: bold;
+    font-family: 'Bebas Neue', cursive;
+}
+input {
+    border: 2px solid grey;
+    border-radius: 4px;
+    display: block;
+    font-family: 'Quicksand', sans-serif ;
+    font-size: 14px;
+    padding: 10px;
+    width:100%;
+}
+h2 {
+    text-align: center;
+}
+i {
+    position: absolute;
+    top: 40px;
+    right: 18px;
+    visibility: hidden;
+}
+small {
+    position: absolute;
+    visibility: hidden;
+    bottom: -4px;
+    left: 0px;
+}
+button {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #fa8c8c;
+    border-radius: 4px;
+    background-color: rgb(177, 174, 199);
+    font-family: 'Quicksand';    
+
+}
+
+.success input {
+    border-color: green;
+}
+.error input {
+    border-color: red;
+}
+.success .fa-check {
+    visibility: visible;
+    color: green;
+}
+.error .fa-xmark {
+    visibility: visible;
+    color: red;
+}
+.error small {
+    visibility: visible;
+    color: brown;
+}
